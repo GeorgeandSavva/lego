@@ -1,0 +1,134 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blta6da339d766e9905/75328.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Шлем Мандалорца",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 2399,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt75138cee07cd24fd/76182.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Маска Бэтмена",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 1799,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blte859b15f61716720/60321.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Пожарная команда",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 999,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltac4bd5826e26726f/75948.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Часовая башня Хогвартса",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 1200,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt4fea1a93b802d3d3/75327.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Шлем Люка Скайуокера",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 3500,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltb792f8be4ccba3eb/60317.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Полицейская погоня в банке",
+      "types": [0],
+      "sizes": [30, 40],
+      "price": 1299,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt8e41b805a1252580/75969.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Астрономическая башня Хогвартса",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 1000,
+      "category": 3,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt83e4a6f3bc03295a/60250.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Почтовый самолёт",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 450,
+      "category": 2,
+      "rating": 10
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt4e760d8c14f0cbbe/60351.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Космодром",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 1688,
+      "category": 4,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blta7b7b825b6d4fc0a/75313_Prod.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "AT-AT",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 4999,
+      "category": 0,
+      "rating": 10
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltdc4e5203d8c945eb/75322_Prod.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "AT-ST на Хоте",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 2800,
+      "category": 0,
+      "rating": 7
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt38e8915698af2d5f/75308.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "R2-D2",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 3567,
+      "category": 0,
+      "rating": 10
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt329c3bf110f2c7bb/60349.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5",
+      "name": "Лунная космическая станция",
+      "types": [0],
+      "sizes": [26, 30, 40],
+      "price": 2545,
+      "category": 4,
+      "rating": 7
+    }
+  ]
+}
