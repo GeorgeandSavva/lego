@@ -2,6 +2,10 @@
 
 .pizza-col {
   width: 33.33333%;
+
+  @include breakpoint($tablet) {
+    width: 50%;
+  }
 }
 
 .pizza-block {

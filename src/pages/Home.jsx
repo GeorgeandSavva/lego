@@ -1,9 +1,9 @@
 import React from 'react'
-import { Categories, SortPopup, PizzaBlock, PizzaLoadingBlock } from '../components';
+import { SortPopup, PizzaBlock, PizzaLoadingBlock } from '../components';
 import { useSelector, useDispatch } from 'react-redux';
 import { setCategory, setSortBy } from '../redux/actions/filters';
 import { fetchPizzas } from '../redux/actions/pizzas';
-import { addPizzaToCart } from '../redux/actions/cart';
+import Burger from '../components/Burger';
 
 
 const categoryNames = ['Star Wars', 'Batman', 'City', 'Harry Potter', 'Space'];
@@ -44,7 +44,7 @@ function Home() {
   return (
     <div className="container">
       <div className="content__top">
-        <Categories
+        <Burger
           activeCategory={category}
           onClickCategory={onSelectCategory}
           items={categoryNames} />
