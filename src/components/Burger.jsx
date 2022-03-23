@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Categories from './Categories';
 
 function Burger(props) {
@@ -13,7 +13,7 @@ function Burger(props) {
 
       <Categories active={menuActive} setActive={setMenuActive} activeCategory={props.activeCategory} onClickCategory={props.onClickCategory} items={props.items} />
     </div>
-    
+
   )
 }
 
