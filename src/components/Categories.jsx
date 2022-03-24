@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-
-
-const Categories = React.memo(function Categories({ activeCategory, items, onClickCategory, active, setActive }) {
+const Categories = React.memo(function Categories({ activeCategory, items, onClickCategory, active, setActive, isMobile }) {
 
   return (
-    <div className={active ? 'categories__active' : 'categories'} onClick={() => setActive(false)}>
+
+    <div className={active && isMobile ? 'categories__active' : 'categories'} onClick={() => setActive(false)}>
       <ul>
         <li
           className={activeCategory === null ? 'active' : '`'}
@@ -22,6 +21,7 @@ const Categories = React.memo(function Categories({ activeCategory, items, onCli
         ))}
       </ul>
     </div>
+
   )
 });
 
