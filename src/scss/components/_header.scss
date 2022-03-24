@@ -3,6 +3,10 @@
 .header {
   border-bottom: 1px solid $gray-line;
   padding: 40px 0;
+  @include breakpoint($phone2) {
+    padding: 20px 0;
+  }
+  
 
   .container {
     display: flex;
@@ -12,9 +16,15 @@
 
   &__logo {
     display: flex;
+    align-items: center;
 
     img {
       margin-right: 9px;
+      @include breakpoint($phone2) {
+        margin-right: 5px;
+        height: 40px;
+        width: 49px;
+      }
     }
 
     h1 {
@@ -27,6 +37,9 @@
 
     p {
       color: #7b7b7b;
+      @include breakpoint($phone2) {
+        display: none;
+      }
     }
   }
 }

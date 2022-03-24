@@ -3,13 +3,13 @@ import ContentLoader from "react-content-loader"
 
 function LoadingBlock() {
   return (
-    <div className="loading-col">
-      <div className="loading-block"></div>
-      <div className="loading-name"></div>
-      <div className="loading-type"></div>
-      <div className="loading-inner"> 
-        <div className="loading-price"></div>
-        <div className="loading-add"></div>
+    <div className="loading__col">
+      <div className="loading__block"></div>
+      <div className="loading__name"></div>
+      <div className="loading__type"></div>
+      <div className="loading__inner"> 
+        <div className="loading__price"></div>
+        <div className="loading__add"></div>
       </div>
     </div>
   );

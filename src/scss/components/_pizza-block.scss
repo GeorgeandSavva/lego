@@ -3,8 +3,11 @@
 .pizza-col {
   width: 33.33333%;
 
-  @include breakpoint($tablet) {
+  @include breakpoint($laptop) {
     width: 50%;
+  }
+  @include breakpoint($phone) {
+    width: 100%;
   }
 }
 
@@ -19,6 +22,16 @@
   &__image {
     height: 300px;
     width: auto;
+
+    @include breakpoint($tablet) {
+      height: 270px;;
+    }
+    @include breakpoint($tablet2) {
+      height: 230px;;
+    }
+    @include breakpoint($phone2) {
+      height: 210px;;
+    }
   }
 
   &__title {
@@ -81,34 +94,52 @@
   }
 }
 
-.loading-col {
+.loading__col {
     width: 33.333%;
     margin-bottom: 64px;
+    @include breakpoint($laptop) {
+      width: 100%;
+    }
 }
 
-.loading-block {
+.loading__block {
     width: 392px;
     height: 302px;
-    background: #f3f3f3;
+    background: $preloader;
     margin-bottom: 13px;
+    @include breakpoint($laptop) {
+      background: #fff;
+      width: 100px;
+      height: 100px;
+    }
 }
 
-.loading-name {
+.loading__name {
     width: 392px;
     height: 25px;
-    background: #f3f3f3;
+    background: $preloader;
     margin-bottom: 17px;
+    @include breakpoint($laptop) {
+      background: #fff;
+      width: 100px;
+      height: 5px;
+    }
 }
 
-.loading-type {
+.loading__type {
     width: 392px;
     height: 58px;
-    background: #f3f3f3;
+    background: $preloader;
     border-radius: 8px;
     margin-bottom: 18px;
+    @include breakpoint($laptop) {
+      background: #fff;
+      width: 100px;
+      height: 10px;
+    }
 }
 
-.loading-inner {
+.loading__inner {
   max-width: 392px;
   display: flex;
   justify-content: space-between;
@@ -116,15 +147,24 @@
   align-items: center;
 }
 
-.loading-price {
+.loading__price {
     width: 90px;
     height: 35px;
-    background: #f3f3f3;
+    background: $preloader;
+    @include breakpoint($laptop) {
+      background: #fff;
+      width: 20px;
+      height: 10px;
+    }
 }
 
-.loading-add {
+.loading__add {
     width: 130px;
     height: 48px;
-    background: #f3f3f3;
+    background: $preloader;
     border-radius: 25px;
+    @include breakpoint($laptop) {
+      background: #fff;
+      display: none;
+    }
 }

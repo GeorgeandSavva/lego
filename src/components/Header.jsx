@@ -12,7 +12,7 @@ function Header() {
       <Link to="/">
       <div className="header__logo">
         <img width="54" height="45" src="https://clck.ru/e5Qke" alt="Pizza logo" />
-          <div>
+          <div className='header__text'>
             <h1>Lego</h1>
             <p>Построй свой мир</p>
           </div>

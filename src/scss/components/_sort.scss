@@ -17,6 +17,9 @@
 
     b {
       margin-right: 8px;
+      @include breakpoint($phone2) {
+        display: none;
+      }
     }
 
     span {
