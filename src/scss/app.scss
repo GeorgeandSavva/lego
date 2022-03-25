@@ -37,7 +37,7 @@ body {
 .content {
   padding: 40px 0;
   @include breakpoint($phone) {
-    padding: 20px 0 0 0;
+    padding: 20px 0 20px 0;
   }
 
   &__title {
@@ -133,6 +133,8 @@ body {
     border-top: 1px solid $gray-line;
     padding-top: 30px;
     margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     &-img {
       display: flex;
@@ -150,7 +152,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 40%;
+      margin-left: 32px;
 
       h3 {
         font-weight: bold;
@@ -169,6 +171,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin: 0 50px 0 0;
       width: 13%;
 
       &-minus {
@@ -181,6 +184,7 @@ body {
 
       b {
         font-size: 22px;
+        margin: 0 10px;
       }
     }
 
@@ -202,9 +206,12 @@ body {
       align-items: center;
       justify-content: flex-end;
       width: 4%;
+      margin: 0 0 0 20px;
+
 
       .button {
         border-color: darken($color: $gray-line, $amount: 10);
+        margin: 10px
       }
 
       svg {
@@ -227,6 +234,18 @@ body {
           background-color: darken($color: $gray-line, $amount: 80);
         }
       }
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+    &__first {
+      display: flex;
+      width: 60%;
+      
     }
   }
 
