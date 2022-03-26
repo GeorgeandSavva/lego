@@ -20,14 +20,14 @@
     "redux-thunk": "^2.4.1",
     "sass": "^1.49.9",
     "web-vitals": "^2.1.4",
-    "server": "npx json-server --watch public/db.json --port=3001"
+    "server": "npx json-server --watch public/db.json --port=3001",
+    "dev": "concurrently \"npm start\" \"npm run server\""
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "concurrently \"npm start\" \"npm run server\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
