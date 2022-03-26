@@ -132,6 +132,7 @@
     background: $preloader;
     border-radius: 8px;
     margin-bottom: 18px;
+    
     @include breakpoint($laptop) {
       background: #fff;
       width: 100px;

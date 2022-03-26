@@ -56,7 +56,7 @@ function Cart() {
                   <path d="M11.6666 9.16667V14.1667" stroke="#B6B6B6" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
 
-                <span onClick={onClearCart}>Очистить корзину</span>
+                <span onClick={onClearCart}>Очистить</span>
               </div>
             </div>
             <div className="content__items">
@@ -79,29 +79,33 @@ function Cart() {
             </div>
             <div className="cart__bottom">
               <div className="cart__bottom-details">
-                <span> Всего товаров: <b>{totalCount} шт.</b> </span>
-                <span> Сумма заказа: <b>{totalPrice}</b> </span>
+                <span className='cart__total__count'> Всего товаров: <b>{totalCount} шт.</b> </span>
+                <span className='cart__total__price'> Сумма заказа: <b>{totalPrice}</b> </span>
               </div>
               <div className="cart__bottom-buttons">
-                <a href="/" className="button button--outline button--add go-back-btn">
-                  <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                <div className='cart__button__back'>
+                  <a href="/" className="button button--outline button--add go-back-btn">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
 
-                  <Link to="/" >
-                    <span>Вернуться назад</span>
-                  </Link>
-                </a>
-                <Button onClick={onClickOrder} className="pay-btn">
-                  <span>Оплатить сейчас</span>
-                </Button>
+                    <Link to="/" >
+                      <span>Вернуться назад</span>
+                    </Link>
+                  </a>
+                </div>
+                <div className='cart__button__pay'>
+                  <Button onClick={onClickOrder} className="pay-btn">
+                    <span>Оплатить сейчас</span>
+                  </Button>
+                </div>
               </div>
             </div>
           </div> : <div className="cart cart--empty">
             <h2>Корзина пустая <i>😕</i></h2>
             <p>
-              Вероятней всего, вы не заказывали ещё пиццу.<br />
-              Для того, чтобы заказать пиццу, перейди на главную страницу.
+              Вероятней всего, вы не заказывали ещё Lego.<br />
+              Для того, чтобы заказать набор Lego, перейди на главную страницу.
             </p>
             <img src={cartEmptyImage} alt="Empty cart" />
             <Link to="/" className="button button--black">
