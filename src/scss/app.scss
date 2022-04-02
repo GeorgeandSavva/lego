@@ -24,7 +24,7 @@ body {
   background-color: #fff;
   margin: 0 auto;
   border-radius: 10px;
-  max-width: 1400px;
+  max-width: 1700px;
 
   @include breakpoint($phone) {
     width: calc(100vw - 70px);
