@@ -34,4 +34,4 @@ We also made a responsive web design so you can use it on your phone. For naviga
 
 ### How navigation works
 
-<p align="center"> <img  src="src/assets/img/start.gif"></p>
+<p align="center"> <img  src="src/assets/img/start1.gif"></p>
