@@ -34,7 +34,6 @@ Most of the code was taken from the YouTube course [Archakov Blog](https://clck.
 ---
 
 ### How to start 
-- npm start
 - npm run dev
 
 
