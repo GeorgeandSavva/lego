@@ -1,37 +1,40 @@
 # <center>Lego store</center>
 
-<p align="center"> <img  src="img/markdown/1.jpg"></p>
+<p align="center"> <img  src="src/assets/img/start.gif"></p>
 
 ---
 
-<!-- ### Description
+### Description
 
- Design was taken from this [site.](https://ru.freepik.com)
+Most of the code was taken from the YouTube course [Archakov Blog](https://clck.ru/eoWVr) since we didn't have much experience with React. We didn't just copy the code, we wrote it together with the author. Also we added:
+- Responsive design
+- Burger menu
 
-<p align="center"> <img  src="img/markdown/3.jpg"></p>
-
-
-The site is implemented from scratch in HTML and CSS. Also jQuery was used for navigation on the page.
+<p align="center"> <img  src="src/assets/img/war.png"></p>
 
 ---
 
 ### About the project
 
-#### We used:
-- HTML
-- CSS
-- JavaScript
-- jQuery
+#### Stack:
+- React
+- SCSS
+- Redux
+- Redux thunk
+- json-server
+- Axios
 
-We also made a responsive web design so you can use it on your phone. For navigation, we made a burger menu.
+#### Burger menu and Responsive design:
 
 <p align="center">
-  <img src="img/markdown/iphone3.png" />
-  <img src="img/markdown/iphone4.png" /> 
-</p> -->
+  <img src="src/assets/img/iphone3.png" />
+  <img src="src/assets/img/iphone1.png" /> 
+</p>
 
 ---
 
-### How navigation works
+### How to start 
+- npm start
+- npm run dev
 
-<p align="center"> <img  src="src/assets/img/start.gif"></p>
+
