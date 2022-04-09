@@ -1,6 +1,6 @@
 # <center>Lego store</center>
 
-<p align="center"> <img  src="src/assets/img/start.gif"></p>
+<p align="center"> <img  src="src/assets/img/start1.gif"></p>
 
 ---
 
@@ -24,11 +24,11 @@ Most of the code was taken from the YouTube course [Archakov Blog](https://clck.
 - json-server
 - Axios
 
-#### Burger menu and Responsive design:
+#### Responsive design and Burger menu:
 
 <p align="center">
-  <img src="src/assets/img/iphone3.png" />
-  <img src="src/assets/img/iphone1.png" /> 
+  <img style="width:230px;" src="src/assets/img/iphone2.png" />
+  <img style="width:230px;" src="src/assets/img/iphone1.png" /> 
 </p>
 
 ---
