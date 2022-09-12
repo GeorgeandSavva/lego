@@ -4,12 +4,6 @@
 
 ---
 
-### Description
-
-Most of the code was taken from the YouTube course [Archakov Blog](https://clck.ru/eoWVr) since we didn't have much experience with React. We didn't just copy the code, we wrote it together with the author. Also we added:
-- Responsive design
-- Burger menu
-
 <p align="center"> <img  src="src/assets/img/war.png"></p>
 
 ---
