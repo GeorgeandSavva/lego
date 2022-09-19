@@ -5,15 +5,12 @@ function CartItem({ id, imageUrl, name, type, totalPrice, totalCount, onRemove, 
   const handleRemoveClick = () => {
     onRemove(id);
   }
-
   const handlePlusItem = () => {
     onPlus(id)
   }
-
   const handleMinusItem = () => {
     onMinus(id)
   }
-
 
   return (
     <div className="cart__item">

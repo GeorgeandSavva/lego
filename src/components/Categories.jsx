@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const Categories = React.memo(function Categories({ activeCategory, items, onClickCategory, active, setActive, isMobile }) {
 
   return (
-
     <div className={active && isMobile ? 'categories__active' : 'categories'} onClick={() => setActive(false)}>
       <ul>
         <li
@@ -21,12 +20,10 @@ const Categories = React.memo(function Categories({ activeCategory, items, onCli
         ))}
       </ul>
     </div>
-
   )
 });
 
 Categories.propTypes = {
-  // activeCategory: PropTypes.oneOf([PropTypes.number, null]),
   items: PropTypes.arrayOf(PropTypes.string).isRequired,
   onClickCategory: PropTypes.func.isRequired
 };
